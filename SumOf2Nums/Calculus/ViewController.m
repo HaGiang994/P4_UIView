@@ -31,12 +31,7 @@
     float a = [_aText.text floatValue];
     float b = [_bText.text floatValue];
     int c = a + b;
-    _resultDisplay.text = [[NSString alloc] initWithFormat:@"%d",c];
-    
-    
-    
-    
-    
+    _resultDisplay.text = [[NSString alloc] initWithFormat:@"%d",c];    
 }
 
 - (IBAction)clearData:(id)sender {
